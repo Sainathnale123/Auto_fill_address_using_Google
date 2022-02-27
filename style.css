@@ -1,0 +1,9 @@
+.vertical-center {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+ }
+ h1#lable {
+    font-size: 18px;
+    text-align: center;
+}

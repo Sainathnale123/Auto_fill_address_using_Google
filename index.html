@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="autofill.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row vertical-center">
+           <form class="col-xs-8 col-xs-offset-2  col-sm-6 col-sm-offset-3 col-md-4 col-sm-offset-4 col-lg-2 col-lg-offset-5">
+            <div class="Address">  
+            <h1 id="lable">Auto Fill Address</h1>
+              <p>
+                 <label class="sr-only" for="">Address</label>
+                 <input class="form-control" type="text" placeholder="Address" id="address">
+              </p>
+              <p>
+                 <label class="sr-only" for="">Appartment</label>
+                 <input class="form-control" type="text" placeholder="Appartment" id="address2">
+              </p>
+
+              <p>
+                <label class="sr-only" for="">City</label>
+                <input class="form-control" type="text" placeholder="City" id="city">
+              </p>
+              <p>
+                <label class="sr-only" for="">State</label>
+                <input class="form-control" type="text" placeholder="state" id="state">
+              </p>
+              <p>
+                <label class="sr-only" for="">Zip</label>
+                <input class="form-control" type="text" placeholder="Zip" id="zip"> 
+              </p>
+              <p>
+                <label class="sr-only" for="">Country</label>
+                <input class="form-control" type="text" placeholder="country" id="country">
+             </p>
+            </div>
+           </form>
+           
+        </div>
+     </div>
+     <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsvCIJfSq8kqo6UGChLPVvQKxRYLImbTM&callback=initAutocomplete&libraries=places&v=weekly"
+      async
+    ></script>
+</body>
+</html>
